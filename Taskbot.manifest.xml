@@ -1,0 +1,27 @@
+<manifest>
+    <main-class>com.kengpenguin.bots.Taskbo.Taskbot</main-class>
+    <name>KhazardMiner</name>
+    <tag-line>Insert catchy tagline here (marketing oriented)</tag-line><!--Max of 50 chars-->
+    <description>Power chops all types of logs anywhere in RuneScape. (functionality oriented)</description><!--Max of 110 chars-->
+    <version>1.0.2</version>
+    <compatibility>
+        <game>OSRS</game>
+        <game>RS3</game>
+    </compatibility>
+    <categories>
+        <category>MINING</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>Miner11</internal-id>
+    <!--The rest are optional-->
+    <open-source>false</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>public</access>
+    <tags>
+        <tag>Tree</tag>
+        <tag>Vine</tag>
+    </tags>
+    <resources>
+        <resource>path/to/file.png</resource>
+    </resources>
+</manifest>
